@@ -1,0 +1,85 @@
+.parent{
+background-color: gray;
+padding: 20px;
+width: 800px;
+height: 250px;
+display: flex;
+
+justify-content: space-between;
+position: relative;
+transition: div 3s ;
+}
+
+.parent div{
+
+    height: 120px;
+    width:80px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(215, 217, 219);
+    
+}
+    .parent:hover .child1
+    {
+        translate:0 150px;
+        cursor: pointer;
+    }
+    .parent:hover .child3
+    { 
+        translate: 0 150px;
+        cursor: pointer;
+    }
+    .parent:hover .child2
+    {
+        translate:0 0;
+        cursor: pointer;
+    }
+    .parent:hover .child4
+    { 
+        translate: 0 0;
+        cursor: pointer;
+    }
+
+
+
+.child1{
+    background-color: blueviolet;
+    transition: all 3s ;
+
+}
+/* .child1:hover{
+translate: 0 150px;
+
+} */
+/*-----------------------------------------------*/
+.child2{
+    background-color: orange;
+    translate: 0  130px;
+    transition: all 3s;
+
+}
+/* .child2:hover{
+    translate: 0 0;
+
+} */
+
+.child3{
+    background-color: rgb(121, 213, 29);
+    transition: all 3s;
+}
+/* .child3:hover{
+    translate: 0 150px;
+
+} */
+
+.child4{
+    background-color: rgb(78, 31, 31);
+    translate: 0 130px;
+    transition: all 3s;
+    
+}
+/* .child4:hover{
+    translate: 0 0;
+
+} */
